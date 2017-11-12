@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		902FDED61F3166F40072B565 /* AddMentorControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902FDED51F3166F40072B565 /* AddMentorControllerViewController.swift */; };
 		90BD45821F3018A9005F7CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD45811F3018A9005F7CA6 /* AppDelegate.swift */; };
 		90BD45841F3018A9005F7CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD45831F3018A9005F7CA6 /* ViewController.swift */; };
 		90BD45871F3018A9005F7CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BD45851F3018A9005F7CA6 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		90BD458C1F3018A9005F7CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BD458A1F3018A9005F7CA6 /* LaunchScreen.storyboard */; };
 		90BD45971F3018A9005F7CA6 /* _Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD45961F3018A9005F7CA6 /* _Tests.swift */; };
 		90BD45A21F3018A9005F7CA6 /* _UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD45A11F3018A9005F7CA6 /* _UITests.swift */; };
+		90BD45B01F3018D5005F7CA6 /* mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD45AF1F3018D5005F7CA6 /* mentor.swift */; };
+		90BD45B21F30285D005F7CA6 /* CustomMentorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD45B11F30285D005F7CA6 /* CustomMentorsCell.swift */; };
+		90E89F531F32B16700ED0193 /* MentorsContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89F521F32B16700ED0193 /* MentorsContentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		902FDED51F3166F40072B565 /* AddMentorControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMentorControllerViewController.swift; sourceTree = "<group>"; };
 		90BD457E1F3018A9005F7CA6 /* 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BD45811F3018A9005F7CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90BD45831F3018A9005F7CA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		90BD459D1F3018A9005F7CA6 /* 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BD45A11F3018A9005F7CA6 /* _UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _UITests.swift; sourceTree = "<group>"; };
 		90BD45A31F3018A9005F7CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BD45AF1F3018D5005F7CA6 /* mentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mentor.swift; sourceTree = "<group>"; };
+		90BD45B11F30285D005F7CA6 /* CustomMentorsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMentorsCell.swift; sourceTree = "<group>"; };
+		90E89F521F32B16700ED0193 /* MentorsContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorsContentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				90BD45881F3018A9005F7CA6 /* Assets.xcassets */,
 				90BD458A1F3018A9005F7CA6 /* LaunchScreen.storyboard */,
 				90BD458D1F3018A9005F7CA6 /* Info.plist */,
+				90BD45AF1F3018D5005F7CA6 /* mentor.swift */,
+				90BD45B11F30285D005F7CA6 /* CustomMentorsCell.swift */,
+				902FDED51F3166F40072B565 /* AddMentorControllerViewController.swift */,
+				90E89F521F32B16700ED0193 /* MentorsContentController.swift */,
 			);
 			path = 4;
 			sourceTree = "<group>";
@@ -259,6 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E89F531F32B16700ED0193 /* MentorsContentController.swift in Sources */,
+				90BD45B01F3018D5005F7CA6 /* mentor.swift in Sources */,
+				902FDED61F3166F40072B565 /* AddMentorControllerViewController.swift in Sources */,
+				90BD45B21F30285D005F7CA6 /* CustomMentorsCell.swift in Sources */,
 				90BD45841F3018A9005F7CA6 /* ViewController.swift in Sources */,
 				90BD45821F3018A9005F7CA6 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +523,7 @@
 				90BD45A81F3018AA005F7CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90BD45A91F3018AA005F7CA6 /* Build configuration list for PBXNativeTarget "4Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				90BD45AB1F3018AA005F7CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90BD45AC1F3018AA005F7CA6 /* Build configuration list for PBXNativeTarget "4UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				90BD45AE1F3018AA005F7CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
